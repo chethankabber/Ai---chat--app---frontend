@@ -219,7 +219,7 @@ export default function InputArea({ onSend, disabled, darkMode }) {
         marginTop: 8, padding: '0 4px',
         fontSize: 10, color: footerColor, letterSpacing: '0.04em',
       }}>
-        {/* <span>⇧↵ new line · ↵ send · 🎙 voice</span> */}
+        <span>⇧↵ new line · ↵ send · 🎙 voice</span>
         <span style={{ color: text.length > 3800 ? '#f87171' : footerColor }}>
           {text.length}/{MAX_CHARS}
         </span>
