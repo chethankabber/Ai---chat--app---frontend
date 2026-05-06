@@ -42,7 +42,7 @@ export default function Header({ messageCount, onToggleSidebar, darkMode, sideba
             color: darkMode ? '#e8e8f0' : '#1a1830',
             margin: 0,
           }}>
-            GT-CHAT
+            #-CHAT
           </p>
           {/* <p style={{
             fontSize: 10,
