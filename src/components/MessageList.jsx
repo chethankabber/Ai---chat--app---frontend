@@ -1,6 +1,8 @@
 import React, { useEffect, useRef } from 'react';
 import Message from './Message';
 import TypingIndicator from './TypingIndicator';
+import { CircleUser, Brain } from 'lucide-react';
+
 
 const STARTERS = [
   "Explain quantum computing simply",
@@ -41,7 +43,7 @@ export default function MessageList({ messages, loading, error, onStarter, darkM
           alignItems: 'center', justifyContent: 'center',
           textAlign: 'center', padding: '60px 20px', gap: 16,
         }}>
-          <span style={{ fontSize: 44 }}>◈</span>
+          <span style={{ fontSize: 44 }}><Brain size={36}/></span>
 
           <h2 style={{
             fontFamily: "'Syne', sans-serif",
