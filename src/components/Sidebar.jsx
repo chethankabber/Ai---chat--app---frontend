@@ -109,7 +109,7 @@ export default function Sidebar({
             fontWeight: 800, fontSize: 13,
             letterSpacing: '0.1em',
             color: text,
-          }}>GT-CHAT</span>
+          }}>#-CHAT</span>
           <button onClick={onClose} style={{
             background: 'none', border: 'none',
             color: dimText, cursor: 'pointer', fontSize: 16,
