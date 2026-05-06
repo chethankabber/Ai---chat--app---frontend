@@ -1,4 +1,4 @@
-# GT Chat — AI Chatbot UI
+# #-Chat — AI Chatbot UI
 
 A clean, production-ready React chatbot interface. Plug in any AI API.
 
